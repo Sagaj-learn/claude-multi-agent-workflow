@@ -25,8 +25,8 @@ A single plugin that bundles:
 ---
  
 ### Before you start
- 
-- Have the provided repo cloned, and the course API project handy to test against.
+
+- Have this repo cloned. The course API to test against is included here in `course-api/` — `cd course-api && npm install` once so it's ready to run.
 - Skim back over Unit 8 (creating, scoping, and orchestrating subagents) and Unit 9 (plugin structure, `${CLAUDE_PLUGIN_ROOT}`, marketplaces, versioning) — you'll use all of it.
 - Decide on a theme for your plugin so the pieces belong together. A 'code quality' plugin (review + tests + a formatting hook) or a 'release' plugin (changelog + version bump + checks) both work well.
 ---
